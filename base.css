@@ -4652,11 +4652,12 @@ header.nueva-cabecera .menu-general .menu-secundario ul li.activo {
   font-family: 'emblema_bold', Arial;
   text-transform: uppercase;
   margin-bottom: 8px;
+  position: relative;
 }
 .page .fcfm-main #fcfm-wrap-content .fcfm-int-aside #mas-noticias .barra_porlet_azul:after {
   content: " ";
-  border-bottom: 1px solid #444;
-  width: 80%;
+  border-bottom: 1px solid #fff;
+  width: 40%;
   right: 0;
   left: 0;
   position: absolute;
@@ -6253,6 +6254,9 @@ header.nueva-cabecera .menu-general .menu-secundario ul li.activo {
 .page .fcfm-main #fcfm-wrap-content .fcfm-int-wrap .wlp-bighorn-layout-cell #Herramientas_1_8 .wlp-bighorn-window-content #herramientas #herramientas-redes a.addthis_button_google_plusone {
   padding-top: 10px;
   width: 46px;
+}
+.page .fcfm-main #fcfm-wrap-content .fcfm-int-wrap .wlp-bighorn-layout-cell #Herramientas_1_8 .wlp-bighorn-window-content #herramientas #herramientas-redes a.addthis_button_google_plusone span {
+  display: block;
 }
 .page .fcfm-main #fcfm-wrap-content .fcfm-int-wrap .portlet.portlet_enviar_amigo {
   display: none;
@@ -9655,6 +9659,13 @@ header.nueva-cabecera .menu-general .menu-secundario ul li.activo {
   font-size: 22px;
   font-family: 'pt_sansregular', Arial;
 }
+#noticiasDerecho3 .page .fcfm-main #fcfm-wrap-content .fcfm-int-wrap .th-banner .portlet .contenedor_portlet .portlet_pie h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+#noticiasDerecho3 .page .fcfm-main #fcfm-wrap-content .fcfm-int-wrap .th-banner .portlet .contenedor_portlet .portlet_pie h2 a:hover {
+  border-bottom: 1px solid #ccc;
+}
 #noticiasDerecho3 .page .fcfm-main #fcfm-wrap-content .fcfm-int-wrap .th-banner .portlet .contenedor_portlet .portlet_pie p {
   font-size: 15px;
   color: #e4e8ed;
@@ -9719,7 +9730,7 @@ header.nueva-cabecera .menu-general .menu-secundario ul li.activo {
   padding-left: 6px;
   display: block;
 }
-#noticiasDerecho3 .page .fcfm-main #fcfm-wrap-content .fcfm-int-wrap .portlet_noticias_columna_llamado_epigrafe .contenedor_portlet .portlet_contenido .noticia:nth-child(odd) {
+#noticiasDerecho3 .page .fcfm-main #fcfm-wrap-content .fcfm-int-wrap .portlet_noticias_columna_llamado_epigrafe .contenedor_portlet .portlet_contenido .noticia:nth-child(even) {
   float: right;
 }
 #noticiasDerecho3 .page .fcfm-main #fcfm-wrap-content .fcfm-int-wrap .th-plain {
@@ -10184,6 +10195,7 @@ header.nueva-cabecera .menu-general .menu-secundario ul li.activo {
   background: #fff;
   border: 1px solid #eceef2;
   border-bottom: 3px solid #eceef2;
+  position: relative;
   /*.ver_mas{
 						margin: 0;
 						position: absolute;

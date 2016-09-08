@@ -2266,10 +2266,11 @@ header.nueva-cabecera{
 						font-family: 'emblema_bold',Arial;
 						text-transform: uppercase;
 						margin-bottom: 8px;
+						position: relative;
 						&:after {
 							content: " ";
-							border-bottom: 1px solid #444;
-							width: 80%;
+							border-bottom: 1px solid #fff;
+							width: 40%;
 							right: 0;
 							left: 0;
 							position: absolute;
@@ -3797,6 +3798,9 @@ header.nueva-cabecera{
 									a.addthis_button_google_plusone{
 										padding-top: 10px;
 										width: 46px;
+										span{
+											display: block;
+										}
 									}
 								}
 							}
@@ -7572,6 +7576,13 @@ header.nueva-cabecera{
 									h2{
 										font-size: 22px;
 										font-family: 'pt_sansregular',Arial;
+										a{
+											color: #fff;
+											text-decoration: none;
+											&:hover{
+												border-bottom: 1px solid #ccc;
+											}
+										}
 									}
 									p{
 										font-size: 15px;
@@ -7639,7 +7650,7 @@ header.nueva-cabecera{
 											display: block;
 										}
 									}
-									&:nth-child(odd){
+									&:nth-child(even){
 										float: right;
 									}
 								}
@@ -8135,6 +8146,7 @@ header.nueva-cabecera{
 					background: #fff;
 					border: 1px solid #eceef2;
 					border-bottom: 3px solid #eceef2;
+					position: relative;
 					#galeria-fotos-multimedia{
 						padding: 0 20px;
 						text-align: center;
